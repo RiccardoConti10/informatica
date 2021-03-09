@@ -7,7 +7,7 @@ class Atleta () :
         self.squadra = squadra
         self.visitaMedica = visitaMedica
     def effettua_visita (self) :
-        while self.visitaMedica == True :
+        while True :
             risp = int(input ("L'Atleta ha effettuato la visita medica? Cliccare 1 per dire di sì, cliccare qualsiasi altro tasto per dire di no"))
             if self.visitaMedica == 1 :
                 print ("L'Atleta  ha effettuato la visita medica, può giocare")
